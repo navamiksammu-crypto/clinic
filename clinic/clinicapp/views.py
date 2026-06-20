@@ -8,7 +8,7 @@ def appointment(request):
         form = AppointmentForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('Allappointments/')
+            return redirect('/Allappointments')
     else:
         form = AppointmentForm()            
 

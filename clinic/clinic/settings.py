@@ -26,9 +26,10 @@ SECRET_KEY = 'django-insecure-+1aw+5vsgowf_rguf7%6=&%i9g#o2ljs+i8e)ie1#g0l7z2&+-
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'clinic-1-flf2.onrender.com',
+    'clinic-74er.onrender.com',
+    'localhost',
+    '127.0.0.1',
 ]
-
 
 # Application definition
 
